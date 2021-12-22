@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 15 11:40:44 2021
-
-@author: sjcet
-"""
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,4 +8,4 @@ plt.plot(x, y,marker='*',ms=20,mfc='g',ls='-.',color='red')
 plt.xlabel("Year")  
 plt.ylabel("Car Value")  
 plt.title("Value Depreciation",loc="left")  # add title
-plt.show()
+plt.show()  
